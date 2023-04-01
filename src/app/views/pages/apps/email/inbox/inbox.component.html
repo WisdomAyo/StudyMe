@@ -1,0 +1,69 @@
+<div class="p-3 border-bottom">
+  <div class="row align-items-center">
+    <div class="col-lg-6">
+      <div class="d-flex align-items-end mb-2 mb-lg-0">
+        <i class="feather icon-inbox icon-xl me-2"></i>
+        <h4 class="me-1">Feeds</h4>
+        <!-- <span class="text-muted">(2 new messages)</span> -->
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="input-group">
+        <input class="form-control" type="text" placeholder="Search Interest...">
+        <button class="btn btn-light btn-icon" type="button" id="button-search-addon"><i
+            class="feather icon-search"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="p-3 border-bottom d-flex align-items-center justify-content-between flex-wrap">
+  <div class="d-none d-md-flex align-items-center flex-wrap">
+    <div class="form-check me-3">
+      <input type="checkbox" class="form-check-input" id="inboxCheckAll">
+    </div>
+    <div class="btn-group me-2" ngbDropdown>
+      <button class="btn btn-outline-primary" type="button" id="inboxDropdown1" ngbDropdownToggle> Sort by</button>
+      <div aria-labelledby="inboxDropdown1" ngbDropdownMenu>
+        <a ngbDropdownItem href="" (click)="false">Mark as read</a>
+        <a ngbDropdownItem href="" (click)="false">Mark as unread</a>
+        <a ngbDropdownItem href="" (click)="false">Spam</a>
+        <!-- <div class="dropdown-divider"></div>
+        <a class="text-danger" ngbDropdownItem href="" (click)="false">Delete</a> -->
+      </div>
+    </div>
+  </div>
+  <div class="d-flex align-items-center justify-content-end flex-grow-1">
+    <span class="me-2">1-10 of 253</span>
+    <div class="btn-group">
+      <button class="btn btn-outline-secondary btn-icon" type="button"><i
+          class="feather icon-chevron-left"></i></button>
+      <button class="btn btn-outline-secondary btn-icon" type="button"><i
+          class="feather icon-chevron-right"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="email-list">
+  <div class="d-flex flex-column m-3">
+    <a href="" (click)="false" class="d-flex align-items-center border-bottom pb-3">
+      <div class="me-3">
+        <div class="cell-image-list">
+          <div class="cell-img" style="background-image: url(./assets/images/portfolio9.jpg)"></div>
+          <div class="cell-img" style="background-image: url(./assets/images/portfolio2.jpg)"></div>
+          <div class="cell-img" style="background-image: url(./assets/images/portfolio12.jpg)"></div>
+          <div class="cell-img-more">
+            + 5 more
+          </div>
+        </div>
+      </div>
+      <div class="w-100">
+        <div class="d-flex justify-content-between">
+          <h6 class="text-body mb-2">Leonardo Payne</h6>
+          <p class="text-muted tx-12">12.30 PM</p>
+        </div>
+        <p class="text-muted tx-13">Hey! there I'm available...</p>
+      </div>
+    </a>
+  </div>
+
+</div>

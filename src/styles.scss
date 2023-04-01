@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+// Global icon font
+@import "./assets/fonts/feather/style.css";
+
+
+// // 3rd party plugins
+@import "@mdi/font/css/materialdesignicons.min.css";
+@import "perfect-scrollbar/css/perfect-scrollbar.css";
+@import "highlight.js/styles/rainbow.css";
+@import "ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css";
+@import "ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css";
+@import "animate.css/animate.min.css";
+@import "@ng-select/ng-select/themes/default.theme.css";
+@import "metismenujs/scss/metismenujs";
+@import "dropzone/dist/min/dropzone.min.css";
+@import "quill/dist/quill.snow.css";
+@import "angular-archwizard/styles/archwizard.css";
+@import "simple-datatables/dist/style.css";
+@import "@swimlane/ngx-datatable/index.css";
+@import "@swimlane/ngx-datatable/themes/bootstrap.css";
+@import "@swimlane/ngx-datatable/assets/icons.css";
+
+
+// NobleUI styles for LTR
+@import "./assets/scss/style";
+
+
+
+// NobleUI styles For RTL
+// @import "./assets/scss/style.rtl.css";
+
+
+ .cell-image-list {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+   .cell-image-list .cell-img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 0px 2px #fff, 1px 1px 5px rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 0px 0px 2px #fff, 1px 1px 5px rgba(0, 0, 0, 0.8);
+    vertical-align: middle;
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    position: relative;
+    cursor: pointer;
+  }
+  
+   .cell-image-list .cell-img:nth-child(1) {
+    z-index: 5;
+  }
+  
+   .cell-image-list .cell-img:nth-child(2) {
+    z-index: 4;
+  }
+  
+   .cell-image-list .cell-img:nth-child(3) {
+    z-index: 3;
+  }
+  
+   .cell-image-list .cell-img:nth-child(4) {
+    z-index: 2;
+  }
+  
+   .cell-image-list .cell-img:nth-child(5) {
+    z-index: 1;
+  }
+  
+  
+   .cell-image-list .cell-img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+   .cell-image-list .cell-img + .cell-img {
+    margin-left: -15px;
+  }
+  
+   .cell-image-list .cell-img + .cell-img:hover {
+    -webkit-transform: translateX(5px) scale(1.1);
+            transform: translateX(5px) scale(1.1);
+  }
+  
+   .cell-image-list .cell-img-more {
+    font-size: 0.63rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    position: absolute;
+    top: 120%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 20%;
+    background-color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+    z-index: 7;
+    white-space: nowrap;
+  }
+  
